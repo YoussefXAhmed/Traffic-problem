@@ -209,39 +209,6 @@
 					</Points>
 				</Connector>
 				<Connector>
-					<Id>1746321757780</Id>
-					<Name><![CDATA[connector]]></Name>
-					<X>0</X><Y>0</Y>
-					<Label><X>10</X><Y>0</Y></Label>
-					<PublicFlag>false</PublicFlag>
-					<PresentationFlag>true</PresentationFlag>
-					<ShowLabel>false</ShowLabel>
-					<SourceEmbeddedObjectReference>
-						<PackageName><![CDATA[model]]></PackageName>
-						<ClassName><![CDATA[main]]></ClassName>
-						<ItemName><![CDATA[End]]></ItemName>
-					</SourceEmbeddedObjectReference>
-					<SourceConnectableItemReference>
-						<PackageName><![CDATA[com.anylogic.libraries.processmodeling]]></PackageName>
-						<ClassName><![CDATA[MoveTo]]></ClassName>
-						<ItemName><![CDATA[in]]></ItemName>
-					</SourceConnectableItemReference>
-					<TargetEmbeddedObjectReference>
-						<PackageName><![CDATA[model]]></PackageName>
-						<ClassName><![CDATA[main]]></ClassName>
-						<ItemName><![CDATA[moveToAlt]]></ItemName>
-					</TargetEmbeddedObjectReference>
-					<TargetConnectableItemReference>
-						<PackageName><![CDATA[com.anylogic.libraries.processmodeling]]></PackageName>
-						<ClassName><![CDATA[MoveTo]]></ClassName>
-						<ItemName><![CDATA[out]]></ItemName>
-					</TargetConnectableItemReference>
-					<Points>
-						<Point><X>570</X><Y>650</Y></Point>
-						<Point><X>520</X><Y>650</Y></Point>
-					</Points>
-				</Connector>
-				<Connector>
 					<Id>1746321757782</Id>
 					<Name><![CDATA[connector4]]></Name>
 					<X>0</X><Y>0</Y>
@@ -272,6 +239,72 @@
 					<Points>
 						<Point><X>480</X><Y>650</Y></Point>
 						<Point><X>420</X><Y>650</Y></Point>
+					</Points>
+				</Connector>
+				<Connector>
+					<Id>1746370314975</Id>
+					<Name><![CDATA[connector]]></Name>
+					<X>0</X><Y>0</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>false</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<SourceEmbeddedObjectReference>
+						<PackageName><![CDATA[model]]></PackageName>
+						<ClassName><![CDATA[main]]></ClassName>
+						<ItemName><![CDATA[End]]></ItemName>
+					</SourceEmbeddedObjectReference>
+					<SourceConnectableItemReference>
+						<PackageName><![CDATA[com.anylogic.libraries.processmodeling]]></PackageName>
+						<ClassName><![CDATA[MoveTo]]></ClassName>
+						<ItemName><![CDATA[in]]></ItemName>
+					</SourceConnectableItemReference>
+					<TargetEmbeddedObjectReference>
+						<PackageName><![CDATA[model]]></PackageName>
+						<ClassName><![CDATA[main]]></ClassName>
+						<ItemName><![CDATA[moveTo2]]></ItemName>
+					</TargetEmbeddedObjectReference>
+					<TargetConnectableItemReference>
+						<PackageName><![CDATA[com.anylogic.libraries.processmodeling]]></PackageName>
+						<ClassName><![CDATA[MoveTo]]></ClassName>
+						<ItemName><![CDATA[out]]></ItemName>
+					</TargetConnectableItemReference>
+					<Points>
+						<Point><X>760</X><Y>650</Y></Point>
+						<Point><X>620</X><Y>650</Y></Point>
+					</Points>
+				</Connector>
+				<Connector>
+					<Id>1746370314977</Id>
+					<Name><![CDATA[connector5]]></Name>
+					<X>0</X><Y>0</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>false</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<SourceEmbeddedObjectReference>
+						<PackageName><![CDATA[model]]></PackageName>
+						<ClassName><![CDATA[main]]></ClassName>
+						<ItemName><![CDATA[moveTo2]]></ItemName>
+					</SourceEmbeddedObjectReference>
+					<SourceConnectableItemReference>
+						<PackageName><![CDATA[com.anylogic.libraries.processmodeling]]></PackageName>
+						<ClassName><![CDATA[MoveTo]]></ClassName>
+						<ItemName><![CDATA[in]]></ItemName>
+					</SourceConnectableItemReference>
+					<TargetEmbeddedObjectReference>
+						<PackageName><![CDATA[model]]></PackageName>
+						<ClassName><![CDATA[main]]></ClassName>
+						<ItemName><![CDATA[moveToAlt]]></ItemName>
+					</TargetEmbeddedObjectReference>
+					<TargetConnectableItemReference>
+						<PackageName><![CDATA[com.anylogic.libraries.processmodeling]]></PackageName>
+						<ClassName><![CDATA[MoveTo]]></ClassName>
+						<ItemName><![CDATA[out]]></ItemName>
+					</TargetConnectableItemReference>
+					<Points>
+						<Point><X>580</X><Y>650</Y></Point>
+						<Point><X>520</X><Y>650</Y></Point>
 					</Points>
 				</Connector>
 			</Connectors>
@@ -426,7 +459,7 @@
 							<Value Class="EntityCodeValue">
 								<IsAgentEntity>true</IsAgentEntity>
 								<EntityEmbeddedObject>
-									<Id>1746322622005</Id>
+									<Id>1746369665765</Id>
 									<ActiveObjectClass>
 										<PackageName><![CDATA[model]]></PackageName>
 										<ClassName><![CDATA[Car]]></ClassName>
@@ -457,7 +490,7 @@
 									</LocationNameCode>
 									<InitializationType>LOAD_FROM_DATABASE</InitializationType>
 									<InitializationDatabaseTableQuery>
-										<Id>1746322622004</Id>
+										<Id>1746369665764</Id>
 										<TableReference>
 										</TableReference>
 									</InitializationDatabaseTableQuery>
@@ -538,7 +571,7 @@
 				<EmbeddedObject>
 					<Id>1746223748430</Id>
 					<Name><![CDATA[End]]></Name>
-					<X>570</X><Y>630</Y>
+					<X>760</X><Y>630</Y>
 					<Label><X>-15</X><Y>-15</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -844,6 +877,10 @@
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[delayTime]]></Name>
+							<Value Class="CodeUnitValue">
+								<Code><![CDATA[triangular( 0.5, 1, 5.5 )]]></Code>
+								<Unit Class="TimeUnits"><![CDATA[SECOND]]></Unit>
+							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[capacity]]></Name>
@@ -1075,7 +1112,7 @@
 						<Parameter>
 							<Name><![CDATA[destinationNode]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[gisPoint]]></Code>
+								<Code><![CDATA[shallal1]]></Code>
 							</Value>
 						</Parameter>
 						<Parameter>
@@ -1188,6 +1225,148 @@
 					<QuantityColumn>
 					</QuantityColumn>
 				</EmbeddedObject>
+				<EmbeddedObject>
+					<Id>1746370313072</Id>
+					<Name><![CDATA[moveTo2]]></Name>
+					<X>580</X><Y>630</Y>
+					<Label><X>-15</X><Y>-15</Y></Label>
+					<PublicFlag>false</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>true</ShowLabel>
+					<ActiveObjectClass>
+						<PackageName><![CDATA[com.anylogic.libraries.processmodeling]]></PackageName>
+						<ClassName><![CDATA[MoveTo]]></ClassName>
+					</ActiveObjectClass>
+					<GenericParameterSubstitute>
+						<GenericParameterSubstituteReference>
+							<PackageName><![CDATA[com.anylogic.libraries.processmodeling]]></PackageName>
+							<ClassName><![CDATA[MoveTo]]></ClassName>
+							<ItemName><![CDATA[1412336243157]]></ItemName>
+						</GenericParameterSubstituteReference>
+					</GenericParameterSubstitute>
+					<Parameters>
+						<Parameter>
+							<Name><![CDATA[mode]]></Name>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[destinationType]]></Name>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[destinationNode]]></Name>
+							<Value Class="CodeValue">
+								<Code><![CDATA[shallal2]]></Code>
+							</Value>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[destinationAttractor]]></Name>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[destinationResource]]></Name>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[destinationAgent]]></Name>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[destinationX]]></Name>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[destinationY]]></Name>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[destinationZ]]></Name>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[destinationLatitude]]></Name>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[destinationLongitude]]></Name>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[destinationGeoPlaceName]]></Name>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[destinationInNetwork]]></Name>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[destinationNetwork]]></Name>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[destinationLevel]]></Name>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[useOffsets]]></Name>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[offsetX]]></Name>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[offsetY]]></Name>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[offsetZ]]></Name>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[straightMovement]]></Name>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[destinationUseRotation]]></Name>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[destinationRotation]]></Name>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[destinationVerticalRotation]]></Name>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[movementType]]></Name>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[tripTime]]></Name>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[setSpeed]]></Name>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[speed]]></Name>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[restoreSpeedOnArrival]]></Name>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[onEnter]]></Name>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[onExit]]></Name>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[onRemove]]></Name>
+						</Parameter>
+					</Parameters>
+					<ReplicationFlag>false</ReplicationFlag>
+					<Replication Class="CodeValue">
+						<Code><![CDATA[100]]></Code>
+					</Replication>
+					<CollectionType>ARRAY_LIST_BASED</CollectionType>
+					<InitialLocationType>XYZ</InitialLocationType>
+					<ColumnCode Class="CodeValue">
+						<Code><![CDATA[0]]></Code>
+					</ColumnCode>
+					<RowCode Class="CodeValue">
+						<Code><![CDATA[0]]></Code>
+					</RowCode>
+					<LocationNameCode Class="CodeValue">
+						<Code><![CDATA[""]]></Code>
+					</LocationNameCode>
+					<InitializationType>SPECIFIED_NUMBER</InitializationType>
+					<InitializationDatabaseTableQuery>
+						<Id>1746370313070</Id>
+						<TableReference>
+						</TableReference>
+					</InitializationDatabaseTableQuery>
+					<InitializationDatabaseType>ONE_AGENT_PER_DATABASE_RECORD</InitializationDatabaseType>
+					<QuantityColumn>
+					</QuantityColumn>
+				</EmbeddedObject>
 			</EmbeddedObjects>
 
 			<Presentation>
@@ -1218,8 +1397,8 @@
 					<Height>601.333</Height>
 					<GISShapes>
 					</GISShapes>
-					<Latitude>24.056555421672105</Latitude>
-					<Longitude>32.88513476917469</Longitude>
+					<Latitude>24.05573528851015</Latitude>
+					<Longitude>32.90215459281622</Longitude>
 					<Scale>20000</Scale>
 					<BorderColor>-65536</BorderColor>
 					<FillColor>-1</FillColor>
@@ -1346,9 +1525,165 @@
 					<Radius>3</Radius>
 					<FillColor>2144175423</FillColor>
 				</GISPoint>
-				<GISRoute SourceId="1746034475844" TargetId="1746034216217">
+				<GISRoute SourceId="1746369780413" TargetId="1746034475844">
 
-					<Id>1746320941659</Id>
+					<Id>1746369827117</Id>
+					<Name><![CDATA[gisRoute4]]></Name>
+					<X>0</X><Y>0</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
+					<Z>0</Z>
+					<LineColor>-12799119</LineColor>
+					<LineMaterial>null</LineMaterial>
+					<LineWidth>2</LineWidth>
+					<LineStyle>DASHED</LineStyle>
+					<ReadOnly>false</ReadOnly>
+					<Points>
+						<Point><X>24.06193772505102</X><Y>32.88576865799709</Y></Point>
+						<Point><X>24.061938</X><Y>32.885769</Y></Point>
+						<Point><X>24.06195</X><Y>32.885725</Y></Point>
+						<Point><X>24.062064</X><Y>32.885719</Y></Point>
+						<Point><X>24.062177</X><Y>32.885735</Y></Point>
+						<Point><X>24.063104</X><Y>32.885946</Y></Point>
+						<Point><X>24.06404</X><Y>32.886216</Y></Point>
+						<Point><X>24.064858</X><Y>32.886389</Y></Point>
+						<Point><X>24.0651</X><Y>32.88646</Y></Point>
+						<Point><X>24.065077</X><Y>32.886897</Y></Point>
+						<Point><X>24.065092</X><Y>32.886943</Y></Point>
+						<Point><X>24.065131</X><Y>32.886967</Y></Point>
+						<Point><X>24.065454</X><Y>32.886976</Y></Point>
+						<Point><X>24.065492</X><Y>32.887013</Y></Point>
+						<Point><X>24.065481</X><Y>32.887709</Y></Point>
+						<Point><X>24.065617</X><Y>32.88766</Y></Point>
+						<Point><X>24.065793</X><Y>32.887631</Y></Point>
+						<Point><X>24.065807</X><Y>32.887403</Y></Point>
+						<Point><X>24.065882763534862</X><Y>32.887229502218446</Y></Point>
+					</Points>
+					<Bidirectional>true</Bidirectional>
+
+				</GISRoute>
+				<GISPoint>
+					<Id>1746369780413</Id>
+					<Name><![CDATA[shallal2]]></Name>
+					<X>355</X><Y>117</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
+					<Z>0</Z>
+					<LineColor>-5952982</LineColor>
+					<LineMaterial>null</LineMaterial>
+					<LineWidth>1</LineWidth>
+					<LineStyle>SOLID</LineStyle>
+					<ReadOnly>false</ReadOnly>
+					<Latitude>24.06193772505102</Latitude>	
+					<Longitude>32.88576865799709</Longitude>
+					<Radius>3</Radius>
+					<FillColor>2144175423</FillColor>
+				</GISPoint>
+				<GISRoute SourceId="1746369736444" TargetId="1746369780413">
+
+					<Id>1746370042360</Id>
+					<Name><![CDATA[gisRoute3]]></Name>
+					<X>0</X><Y>0</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
+					<Z>0</Z>
+					<LineColor>-12799119</LineColor>
+					<LineMaterial>null</LineMaterial>
+					<LineWidth>2</LineWidth>
+					<LineStyle>DASHED</LineStyle>
+					<ReadOnly>false</ReadOnly>
+					<Points>
+						<Point><X>24.05036380670144</X><Y>32.89926952955147</Y></Point>
+						<Point><X>24.050364</X><Y>32.89927</Y></Point>
+						<Point><X>24.050502</X><Y>32.899166</Y></Point>
+						<Point><X>24.050672</X><Y>32.899095</Y></Point>
+						<Point><X>24.051551</X><Y>32.898974</Y></Point>
+						<Point><X>24.051687</X><Y>32.898973</Y></Point>
+						<Point><X>24.051956</X><Y>32.899006</Y></Point>
+						<Point><X>24.052094</X><Y>32.899054</Y></Point>
+						<Point><X>24.052271</X><Y>32.89919</Y></Point>
+						<Point><X>24.052613</X><Y>32.899627</Y></Point>
+						<Point><X>24.052662</X><Y>32.899671</Y></Point>
+						<Point><X>24.052772</X><Y>32.89974</Y></Point>
+						<Point><X>24.052894</X><Y>32.899777</Y></Point>
+						<Point><X>24.05325</X><Y>32.899834</Y></Point>
+						<Point><X>24.053849</X><Y>32.899872</Y></Point>
+						<Point><X>24.054014</X><Y>32.899866</Y></Point>
+						<Point><X>24.054173</X><Y>32.899821</Y></Point>
+						<Point><X>24.054672</X><Y>32.899632</Y></Point>
+						<Point><X>24.054858</X><Y>32.899585</Y></Point>
+						<Point><X>24.054954</X><Y>32.899577</Y></Point>
+						<Point><X>24.055634</X><Y>32.899643</Y></Point>
+						<Point><X>24.056132</X><Y>32.899809</Y></Point>
+						<Point><X>24.056176</X><Y>32.899678</Y></Point>
+						<Point><X>24.056244</X><Y>32.89956</Y></Point>
+						<Point><X>24.056696</X><Y>32.899081</Y></Point>
+						<Point><X>24.05729</X><Y>32.898527</Y></Point>
+						<Point><X>24.057582</X><Y>32.898317</Y></Point>
+						<Point><X>24.057791</X><Y>32.898141</Y></Point>
+						<Point><X>24.058035</X><Y>32.897835</Y></Point>
+						<Point><X>24.058273</X><Y>32.897609</Y></Point>
+						<Point><X>24.058986</X><Y>32.897062</Y></Point>
+						<Point><X>24.059041</X><Y>32.896987</Y></Point>
+						<Point><X>24.059313</X><Y>32.896488</Y></Point>
+						<Point><X>24.059951</X><Y>32.895553</Y></Point>
+						<Point><X>24.060146</X><Y>32.895081</Y></Point>
+						<Point><X>24.0602</X><Y>32.894864</Y></Point>
+						<Point><X>24.0602</X><Y>32.894638</Y></Point>
+						<Point><X>24.060057</X><Y>32.893568</Y></Point>
+						<Point><X>24.06007710716783</X><Y>32.89297610581894</Y></Point>
+						<Point><X>24.06001</X><Y>32.892594</Y></Point>
+						<Point><X>24.060013</X><Y>32.89249</Y></Point>
+						<Point><X>24.060033</X><Y>32.892388</Y></Point>
+						<Point><X>24.06003548727837</X><Y>32.89224640621675</Y></Point>
+						<Point><X>24.06001383489436</X><Y>32.89210413086634</Y></Point>
+						<Point><X>24.060006617432208</X><Y>32.89186700528233</Y></Point>
+						<Point><X>24.06003548727837</X><Y>32.89162197551218</Y></Point>
+						<Point><X>24.060059</X><Y>32.891431</Y></Point>
+						<Point><X>24.060077</X><Y>32.891341</Y></Point>
+						<Point><X>24.060145</X><Y>32.891173</Y></Point>
+						<Point><X>24.060252</X><Y>32.89103</Y></Point>
+						<Point><X>24.06073</X><Y>32.890591</Y></Point>
+						<Point><X>24.060791</X><Y>32.890481</Y></Point>
+						<Point><X>24.061526</X><Y>32.8874</Y></Point>
+						<Point><X>24.061938</X><Y>32.885769</Y></Point>
+						<Point><X>24.06193772505102</X><Y>32.88576865799709</Y></Point>
+					</Points>
+					<Bidirectional>true</Bidirectional>
+
+				</GISRoute>
+				<GISPoint>
+					<Id>1746369736444</Id>
+					<Name><![CDATA[shallal1]]></Name>
+					<X>610</X><Y>323</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
+					<Z>0</Z>
+					<LineColor>-65536</LineColor>
+					<LineMaterial>null</LineMaterial>
+					<LineWidth>0</LineWidth>
+					<LineStyle>SOLID</LineStyle>
+					<ReadOnly>false</ReadOnly>
+					<Latitude>24.05036380670144</Latitude>	
+					<Longitude>32.89926952955147</Longitude>
+					<Radius>3</Radius>
+					<FillColor>2147483392</FillColor>
+				</GISPoint>
+				<GISRoute SourceId="1746034216217" TargetId="1746369736444">
+
+					<Id>1746370489868</Id>
 					<Name><![CDATA[gisRoute]]></Name>
 					<X>0</X><Y>0</Y>
 					<Label><X>10</X><Y>0</Y></Label>
@@ -1357,60 +1692,53 @@
 					<ShowLabel>false</ShowLabel>
 					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
 					<Z>0</Z>
-					<LineColor>-14513374</LineColor>
+					<LineColor>-12799119</LineColor>
 					<LineMaterial>null</LineMaterial>
 					<LineWidth>2</LineWidth>
 					<LineStyle>DASHED</LineStyle>
 					<ReadOnly>false</ReadOnly>
 					<Points>
-						<Point><X>24.065882763534862</X><Y>32.887229502218446</Y></Point>
-						<Point><X>24.065807</X><Y>32.887403</Y></Point>
-						<Point><X>24.065793</X><Y>32.887631</Y></Point>
-						<Point><X>24.065487</X><Y>32.887469</Y></Point>
-						<Point><X>24.065492</X><Y>32.887013</Y></Point>
-						<Point><X>24.065454</X><Y>32.886976</Y></Point>
-						<Point><X>24.065131</X><Y>32.886967</Y></Point>
-						<Point><X>24.065092</X><Y>32.886943</Y></Point>
-						<Point><X>24.065077</X><Y>32.886897</Y></Point>
-						<Point><X>24.0651</X><Y>32.88646</Y></Point>
-						<Point><X>24.064858</X><Y>32.886389</Y></Point>
-						<Point><X>24.06404</X><Y>32.886216</Y></Point>
-						<Point><X>24.06323</X><Y>32.885983</Y></Point>
-						<Point><X>24.063236</X><Y>32.885886</Y></Point>
-						<Point><X>24.063181</X><Y>32.885624</Y></Point>
-						<Point><X>24.063578</X><Y>32.884316</Y></Point>
-						<Point><X>24.064987</X><Y>32.884847</Y></Point>
-						<Point><X>24.065024</X><Y>32.88473</Y></Point>
-						<Point><X>24.064293</X><Y>32.884436</Y></Point>
-						<Point><X>24.06315</X><Y>32.884014</Y></Point>
-						<Point><X>24.062891</X><Y>32.883938</Y></Point>
-						<Point><X>24.061182</X><Y>32.883346</Y></Point>
-						<Point><X>24.060238</X><Y>32.883079</Y></Point>
-						<Point><X>24.058709</X><Y>32.882706</Y></Point>
-						<Point><X>24.056865</X><Y>32.882334</Y></Point>
-						<Point><X>24.054765</X><Y>32.882079</Y></Point>
-						<Point><X>24.053025</X><Y>32.881829</Y></Point>
-						<Point><X>24.051791</X><Y>32.881565</Y></Point>
-						<Point><X>24.050475</X><Y>32.881211</Y></Point>
-						<Point><X>24.0496</X><Y>32.880892</Y></Point>
-						<Point><X>24.049359</X><Y>32.880823</Y></Point>
-						<Point><X>24.0491</X><Y>32.880782</Y></Point>
-						<Point><X>24.046538</X><Y>32.880634</Y></Point>
-						<Point><X>24.046293</X><Y>32.880645</Y></Point>
-						<Point><X>24.045569</X><Y>32.880787</Y></Point>
-						<Point><X>24.045224</X><Y>32.880811</Y></Point>
-						<Point><X>24.044941</X><Y>32.880796</Y></Point>
-						<Point><X>24.044741</X><Y>32.880752</Y></Point>
-						<Point><X>24.043812</X><Y>32.880318</Y></Point>
-						<Point><X>24.043781</X><Y>32.88042</Y></Point>
-						<Point><X>24.043864</X><Y>32.880517</Y></Point>
-						<Point><X>24.043936</X><Y>32.880554</Y></Point>
-						<Point><X>24.044436</X><Y>32.88072</Y></Point>
-						<Point><X>24.044708</X><Y>32.880829</Y></Point>
-						<Point><X>24.044924</X><Y>32.880885</Y></Point>
-						<Point><X>24.045378</X><Y>32.880893</Y></Point>
-						<Point><X>24.045855557189196</X><Y>32.88083685560926</Y></Point>
 						<Point><X>24.045949897514433</X><Y>32.88126924672654</Y></Point>
+						<Point><X>24.045909631712362</X><Y>32.88078738370575</Y></Point>
+						<Point><X>24.04649178287909</X><Y>32.880713693665854</Y></Point>
+						<Point><X>24.048004999999996</X><Y>32.88078407834551</Y></Point>
+						<Point><X>24.048005999999997</X><Y>32.880705078345514</Y></Point>
+						<Point><X>24.046537999999998</X><Y>32.880625078345524</Y></Point>
+						<Point><X>24.046293</X><Y>32.88063607834552</Y></Point>
+						<Point><X>24.04556899999999</X><Y>32.880778078345514</Y></Point>
+						<Point><X>24.045224000000005</X><Y>32.880802078345525</Y></Point>
+						<Point><X>24.044940999999998</X><Y>32.88078707834551</Y></Point>
+						<Point><X>24.04474099999999</X><Y>32.88074307834552</Y></Point>
+						<Point><X>24.043983999999995</X><Y>32.880401078345514</Y></Point>
+						<Point><X>24.043812000000003</X><Y>32.88030907834552</Y></Point>
+						<Point><X>24.043744179629773</X><Y>32.88086667961404</Y></Point>
+						<Point><X>24.043814035645656</X><Y>32.881525696006136</Y></Point>
+						<Point><X>24.04392150636513</X><Y>32.88380283300385</Y></Point>
+						<Point><X>24.04373880608851</X><Y>32.88508556133848</Y></Point>
+						<Point><X>24.04338415186841</X><Y>32.886562464145776</Y></Point>
+						<Point><X>24.043111</X><Y>32.887459078345515</Y></Point>
+						<Point><X>24.043012999999995</X><Y>32.888685078345524</Y></Point>
+						<Point><X>24.042919999999995</X><Y>32.88918607834552</Y></Point>
+						<Point><X>24.042449000000005</X><Y>32.890759078345525</Y></Point>
+						<Point><X>24.042023000000004</X><Y>32.89177407834551</Y></Point>
+						<Point><X>24.04203499999999</X><Y>32.89187307834552</Y></Point>
+						<Point><X>24.042702999999996</X><Y>32.89265607834552</Y></Point>
+						<Point><X>24.043082999999996</X><Y>32.893133078345514</Y></Point>
+						<Point><X>24.045703999999997</X><Y>32.89611507834552</Y></Point>
+						<Point><X>24.047195000000002</X><Y>32.89767307834552</Y></Point>
+						<Point><X>24.047454000000002</X><Y>32.89800707834552</Y></Point>
+						<Point><X>24.047587999999998</X><Y>32.898252078345514</Y></Point>
+						<Point><X>24.047690999999997</X><Y>32.898513078345516</Y></Point>
+						<Point><X>24.047992</X><Y>32.89941907834552</Y></Point>
+						<Point><X>24.04827</X><Y>32.90033507834551</Y></Point>
+						<Point><X>24.048692</X><Y>32.90163407834552</Y></Point>
+						<Point><X>24.04880899999999</X><Y>32.902183078345516</Y></Point>
+						<Point><X>24.049069</X><Y>32.90186607834552</Y></Point>
+						<Point><X>24.049208999999998</X><Y>32.90160807834552</Y></Point>
+						<Point><X>24.049781</X><Y>32.90037307834552</Y></Point>
+						<Point><X>24.050078000000006</X><Y>32.899679078345514</Y></Point>
+						<Point><X>24.050193999999994</X><Y>32.89946707834552</Y></Point>
+						<Point><X>24.05036380670144</X><Y>32.89926952955147</Y></Point>
 					</Points>
 					<Bidirectional>true</Bidirectional>
 
@@ -1418,26 +1746,6 @@
 			</Presentation>
 
 						</GISNetwork>
-				<GISPoint>
-					<Id>1746224250392</Id>
-					<Name><![CDATA[workZone]]></Name>
-					<X>491</X><Y>244</Y>
-					<Label><X>10</X><Y>0</Y></Label>
-					<PublicFlag>true</PublicFlag>
-					<PresentationFlag>true</PresentationFlag>
-					<ShowLabel>false</ShowLabel>
-					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
-					<Z>0</Z>
-					<LineColor>-256</LineColor>
-					<LineMaterial>null</LineMaterial>
-					<LineWidth>0</LineWidth>
-					<LineStyle>SOLID</LineStyle>
-					<ReadOnly>false</ReadOnly>
-					<Latitude>24.04706137076943</Latitude>	
-					<Longitude>32.88076910606172</Longitude>
-					<Radius>3</Radius>
-					<FillColor>2147483392</FillColor>
-				</GISPoint>
 				<GISRegion>
 					<FillColor>2147418112</FillColor>
 					<FillMaterial>null</FillMaterial>
@@ -1464,24 +1772,24 @@
 					</Points>
 				</GISRegion>
 				<GISPoint>
-					<Id>1746322122333</Id>
-					<Name><![CDATA[gisPoint]]></Name>
-					<X>434.4</X><Y>213.6</Y>
+					<Id>1746224250392</Id>
+					<Name><![CDATA[workZone]]></Name>
+					<X>491</X><Y>244</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
 					<ShowLabel>false</ShowLabel>
 					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
 					<Z>0</Z>
-					<LineColor>-5952982</LineColor>
+					<LineColor>-256</LineColor>
 					<LineMaterial>null</LineMaterial>
-					<LineWidth>1</LineWidth>
+					<LineWidth>0</LineWidth>
 					<LineStyle>SOLID</LineStyle>
 					<ReadOnly>false</ReadOnly>
-					<Latitude>24.06255730094066</Latitude>	
-					<Longitude>32.883817368944094</Longitude>
+					<Latitude>24.04706137076943</Latitude>	
+					<Longitude>32.88076910606172</Longitude>
 					<Radius>3</Radius>
-					<FillColor>2144175423</FillColor>
+					<FillColor>2147483392</FillColor>
 				</GISPoint>
 			</Presentation>
 
